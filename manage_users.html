@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Multipage Blog Website</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--IONICONS- ICONS-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  
+  <nav>
+    <div class="container nav_container">
+      <a href="index.html" class="nav_logo">WESTIAM</a>
+      <ul class="nav_items">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="servises.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- <li><a href="signIn.html">SignIn</a></li> -->
+        <li class="nav_profile">
+          <div class="avatar">
+            <img src="images/users/ape author.jpeg" alt="Users main">
+          </div>
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="logout.html">LogOut</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!--FOr small screens-->
+      <button id="open_nav_btn"><ion-icon name="menu-outline"></ion-icon></i></button>
+      <button id="close_nav_btn"><ion-icon name="close-outline"></ion-icon></i></button> 
+    </div>
+  </nav>
+
+<!-- ================ END OF NAV ========================= -->
+
+
+<section class="dashboard">
+  <div class="container dashboard_container">
+    <button id="show_sidebar_btn" class="sidebar_toggle">"right"</button>
+    <button id="hide_sidebar_btn" class="sidebar_toggle">"left"</button>
+    <aside>
+      <ul>
+        <li>
+          <a href="add_post.html">Y$
+            <h5>Add Post</h5>
+          </a>
+        </li><!--Y = pen icon  3:28pm-->
+      
+        <li>
+          <a href="dashboard.html">Y$
+            <h5>Manage Post</h5>
+          </a>
+        </li><!--Y = pen icon-->
+      
+        <li>
+          <a href="add_user.html">Y*
+            <h5>Add User</h5>
+          </a>
+        </li><!--Y = pen icon-->
+      
+        <li>
+          <a href="manage_users.html" class="active">Y*
+            <h5>Manage User</h5>
+          </a>
+        </li><!--Y = pen icon-->
+      
+        <li>
+          <a href="add_category.html">Y&
+            <h5>Add Category</h5>
+          </a>
+      </li><!--Y = pen icon-->
+      
+        <li>
+          <a href="mange_categories.html">Y&
+            <h5>Manage Categories</h5>
+          </a>
+      </li><!--Y = pen icon-->
+      </ul>
+    </aside>
+
+    <main>
+      <h2>Manage Users</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            <th>Admin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maria Writter</td>
+            <td>Mary</td>
+            <td><a class="btn sm" href="edit_user.html">Edit</a></td>
+            <td><a class="btn sm danger" href="edit_user.html">Delete</a></td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Jow Odingo</td>
+            <td>James</td>
+            <td><a class="btn sm" href="edit_user.html">Edit</a></td>
+            <td><a class="btn sm danger" href="edit_user.html">Delete</a></td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Ape man King</td>
+            <td>Homosapian</td>
+            <td><a class="btn sm" href="edit_user.html">Edit</a></td>
+            <td><a class="btn sm danger" href="edit_user.html">Delete</a></td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+</section>
+
+<!-- ________________ End of manage dashboard ___________
+ -->
+
+
+ <footer>
+  <div class="footer_socilas">
+    <a href="https://youtu.be/dgfHwfC6bWE?si=9tub3g80o5JDzwCL" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href="https://github.com/dashboard" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+  </div>
+  <div class="container footer_container">
+    <article>
+      <h4>Category</h4>
+      <ul>
+        <li><a href="">Art</a></li>
+        <li><a href="">Wide Life</a></li>
+        <li><a href="">Travel</a></li>
+        <li><a href="">Science & Technology</a></li>
+        <li><a href="">Food</a></li>
+        <li><a href="">Music</a></li>
+      </ul>
+    </article>
+    <article>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="">Online support</a></li>
+        <li><a href="">all Numbers</a></li>
+        <li><a href="">Emails</a></li>
+        <li><a href="">Socila Supporty</a></li>
+        <li><a href="">Location</a></li>
+      </ul>
+    </article>
+    <article>
+      <h4>Blog</h4>
+      <ul>
+        <li><a href="">Safety</a></li>
+        <li><a href="">Repair</a></li>
+        <li><a href="">Recent</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Category</a></li>
+      </ul>
+    </article>
+    <article>
+      <h4>PermaLinks</h4>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="footer_copyright">
+    <small>Copyright &COPY; WESTIAM LEARNINGS</small>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
+
+

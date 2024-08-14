@@ -1,0 +1,79 @@
+Complete CRUD Blog Website with Admin Panel Tutorial for beginners - HTML CSS MySQL PHP Project Tutorial
+
+The pre requsites for this project are:
+
+    1. Live server or preview on web server
+    2. Backet pair coloriser
+    3. emmitte.
+
+Images src = " https://github.com/egattor/frontend-blog-app-assets "
+
+___________Index.html => Home page________________
+Every main section of page has the class =="container"------
+max size of our blog device is 1800px.
+
+section => everything will be paced inside sections
+    including all posts, the manager's control pannel.
+
+_______________FEATURES PAGE___________________
+ Science and technology
+ art
+ music
+ nature
+
+use grid display format. 
+And also let the thumbnail use object fit so that no white spaces are created in case of small image.
+No saturation trick here!
+
+_______________POST PAGE___________________
+when we hover any post the thumnails saturation is reduced.
+
+we have a class of posts we use SECTIONS to group them.
+Each post is an ARTICLE  with a class of "post"
+
+___________RESPONSIVE HOME PAGE_________________________
+we will have 2 media queries:
+ 1. tablets
+ 2. mobile phones
+
+WE create the  design we wish, including apearance of the hambager menue.
+We later call JS to help with the toggle.
+
+______________________BLOG PAGE_________________________
+Here we have all the post available in our webpage.
+
+It includes the "Search bar"
+
+Also we get rid of the features page.
+
+___________SINGLE POST PAGE_________________________
+this is under = post.html
+
+it shows just a single page on the screen.
+
+___________EMPTY PAGE_________________________
+The below pages were designed to be empty:
+1. Service page
+2. About page
+3. Contact page
+
+=================+++ FORMS PAGES +++============================
+this will include :
+ 1. signIn page
+ 2. signUp page
+
+this pages will have their error messages, and the success messages.
+
+For any page that has form to be submitted and added we need: enctype="multipart/form-data"
+
+=================+++ ADMIN Panel +++============================
+Here the sections will have a class of "DASHBOARD"
+
+For the general stiles we include:
+    1. div = container
+    2. div = manager_container
+ 
+inside, the category: we will have class "ASIDE" + "MAIN"
+"MAIN" = will be in table form.
+
+##------------------------------------------THE ADVANCED ONE --------------------------------------------
